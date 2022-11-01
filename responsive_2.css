@@ -1,0 +1,596 @@
+@media only screen and (max-width: 1400px) {
+
+/*-- Header --*/
+
+/*.header_site_row > .col_3 {
+    width: 23%;
+}
+
+.header_site_row > .col_4 {
+    width: 19%;
+}*/
+
+.main_nav > li > a {
+    padding: 26px 10px 25px 10px;
+}
+
+.inlines_1 > div:nth-child(1) {
+    width: 190px;
+}
+
+.inlines_1 > div:nth-child(2) {
+    width: calc(100% - 190px);
+}
+
+.inlines_2 {
+    margin: 0 -3px 0 -3px;
+}
+
+.inlines_2 > div {
+    padding: 0 3px;
+}
+
+.icon_link {
+    min-width: 20px;
+    /*padding: 24px 2px 14px 2px;*/
+    /*padding: 17px 2px 14px 2px;*/
+}
+
+.lang_drp .dropdown_title {
+    padding: 24px 3px 22px 4px;
+}
+
+.dropdown_title:after {
+    right: 7px;
+}
+
+.lang_drp {
+    width: 58px;
+}
+
+.lang_drp.val_drp {
+    width: 70px;
+}
+
+.red_pill {
+    padding: 6px 5px 8px 5px;
+}
+
+.red_pill span {
+    font-size: 12px;
+}
+
+/*-- /Header --*/
+
+}
+
+@media only screen and (max-width: 1300px) {
+
+/*-- Header --*/
+
+.header_site_row > .col_3 {
+    width: 23%;
+}
+
+.header_site_row > .col_4 {
+    width: 19%;
+}
+
+.main_nav > li > a > img {
+	display: none;
+}
+
+/*-- /Header --*/
+
+}
+
+@media only screen and (max-width: 1124px) {
+
+/*-- Header --*/
+
+.header_site_row > .col_3 {
+    width: 29%;
+}
+
+.header_site_row > .col_4 {
+	width: 30%;
+}
+
+.inlines_1 > div:nth-child(2) {
+	width: 0;
+}
+
+.header_site_row .respmenubtn {
+    top: 23px;
+}
+
+.resp_menu_inlines {
+	display: flex;
+	display: -webkit-flex;
+	margin: 0 -4px;
+}
+
+.resp_menu_inlines > div {
+	padding: 0 4px;
+}
+
+.val_drp_2 {
+	width: 85px;
+}
+
+.lang_drp_2.val_drp_2 .dr_content {
+    width: 85px;
+}
+
+.orange_pill_resp {
+	min-height: 40px;
+	padding: 6px 13px;
+}
+
+.orange_pill_resp svg {
+	margin-right: 7px;
+}
+
+/*-- /Header --*/
+
+/*-- My Objects --*/
+
+.header_two_cols_2 h1 {
+    padding: 8px 0;
+}
+
+.tabs_links_pills_wrapp {
+    padding: 0;
+}
+
+.tabs_links_pills li a {
+    min-width: 88px;
+}
+
+.objects_thumbs .object_card_2 {
+    width: calc(50% - 20px);
+    margin: 10px;
+}
+
+/*-- /My Objects --*/
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+/*-- Header --*/
+
+.header_site_row > .col_2 {
+    width: calc(41% - 85px);
+}
+
+.header_site_row > .col_3 {
+    width: calc(62% - 85px);
+}
+
+.header_site_row > .col_4 {
+    width: 55px;
+}
+/*-- /Header --*/
+
+/*-- Add Object --*/
+
+.add_object_btn {
+    min-width: 140px;
+    padding: 0 10px;
+}
+
+/*-- /Add Object --*/
+
+}
+
+@media only screen and (max-width: 900px) {
+/*-- Account Template --*/
+
+.header_two_cols > .left_col {
+    padding-left: 0;
+}
+
+.header_resp_two_cols > .left_col {
+    padding-top: 3px;
+    padding-left: 0;
+}
+
+.sidebar_menu_scroll .mCSB_horizontal.mCSB_inside > .mCSB_container {
+	display: flex;
+	display: -webkit-flex;
+}
+
+.sidebar_menu li {
+	margin: 0 6px;
+}
+
+.sidebar_menu li a {
+	white-space: nowrap;
+    padding: 3px 10px 3px 13px;
+    min-height: 36px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/*-- /Account Template --*/
+
+/*-- My Objects Location Selected Empty --*/
+
+.h1_wrapp_3 {
+    padding-left: 0;
+}
+
+/*-- .My Objects Location Selected Empty --*/
+
+/*-- Payment Payment --*/
+
+.payment_type_sect {
+    width: 100%;
+    margin: 26px 0 34px 0;
+}
+
+.payment_type_footer {
+    padding: 0 16px;
+}
+
+/*-- /Payment Payment --*/
+
+}
+
+@media only screen and (max-width: 767px) {
+
+/*-- Header --*/
+
+.header_site_row > .col_1 {
+    padding-top: 3px;
+}
+
+.header_site_row > .col_2 {
+    width: calc(62% - 85px);
+}
+
+.header_site_row > .col_4 {
+    width: 38%;
+}
+
+.header_site_row .respmenubtn {
+    top: 18px;
+}
+
+.city_dr .dropdown_title {
+    padding: 18px 15px 16px 15px;
+}
+
+.city_dr .dropdown_title:after {
+    top: 24px;
+}
+
+.city_dr.city_dr_2 .dropdown_title {
+    padding: 12px 15px 10px 15px;
+}
+
+.city_dr.city_dr_2 .dropdown_title:after {
+    top: 17px;
+}
+
+/*-- /Header --*/
+
+/*-- My Objects --*/
+
+.info_center_box {
+    margin: 79px auto;
+}
+
+/*-- /My Objects --*/
+
+}
+
+@media only screen and (max-width: 700px) {
+
+/*-- Account Template --*/
+
+.header_resp_two_cols {
+	padding: 2px 0 5px 0;
+}
+
+.header_resp_two_cols > .left_col {
+    width: 55%;
+    padding-top: 3px;
+}
+
+.header_resp_two_cols > .right_col {
+    width: 45%;
+}
+
+.header_resp_two_cols .white_pill_5 {
+    min-width: 130px;
+}
+
+.header_resp_two_cols_2 > .left_col {
+	width: 100%;
+}
+
+/*-- /Account Template --*/
+
+}
+
+@media only screen and (max-width: 600px) {
+
+/*-- Header --*/
+
+.header_site_row > .col_1 {
+    width: 85px;
+}
+
+.header_site_row > .col_4 {
+    width: calc(100% - 85px);
+}
+
+.city_dr.city_dr_2 {
+    width: 145px;
+}
+
+.resp_menu_row_2 > div:nth-child(odd) {
+    width: 149px;
+    padding: 8px 4px 8px 0;
+}
+
+.resp_menu_row_2 > div:nth-child(even) {
+    width: calc(100% - 149px);
+    padding: 8px 0 0 4px;
+}
+
+.orange_pill_resp {
+	min-width: 100%;
+    padding: 6px 8px;
+    font-size: 12px;
+}
+
+.orange_pill_resp svg {
+    margin-right: 5px;
+}
+
+.city_dr.city_dr_2 .dropdown_title {
+    padding: 12px 10px 10px 10px;
+}
+
+/*-- /Header --*/
+
+/*-- White Header --*/
+
+.sign_form_box {
+    margin: 20px auto 10px auto;
+}
+
+/*-- /White Header --*/
+
+.resp_two_cols {
+    padding-bottom: 12px;
+}
+
+.resp_two_cols .white_pill_5 {
+	min-width: 140px;
+}
+
+a.basket_pill,
+button.basket_pill {
+    min-width: 50px;
+    height: 40px;
+}
+
+.header_two_cols h1 {
+    padding: 8px 0;
+}
+
+/*-- Add Object Popup --*/
+
+.popup_add_object {
+    padding: 5px 18px 7px 18px;
+}
+
+.popup_add_object .close_popup {
+    top: 2px;
+    right: -9px;
+}
+
+.add_oblect_form .orange_pill {
+	width: 100%;
+}
+
+/*-- /Add Object Popup --*/
+
+/*-- My Objects Added Object --*/
+
+.two_cols_3 + .objects_thumbs {
+	margin-top: -18px;
+	margin-bottom: 25px;
+}
+
+.objects_thumbs .object_card_2 {
+    width: 100%;
+    max-width: 480px;
+    margin: 10px auto;
+}
+
+/*-- /My Objects Added Object --*/
+
+/*-- My Objects Offices Context Menu --*/
+
+.two_cols_3.two_cols_3_2_resp {
+	padding-top: 2px;
+}
+
+.two_cols_3.two_cols_3_2_resp > .left_col {
+    width: 100%;
+    padding-right: 0;
+}
+
+.filter_tag {
+    padding: 8px 7px 8px 7px;
+    font-size: 12px;
+}
+
+/*-- /My Objects Offices Context Menu --*/
+
+/*-- Payment Tarif --*/
+
+.respbacklink_wrapp {
+    padding: 16px 0 10px 0;
+}
+
+/*-- /Payment Tarif --*/
+
+/*-- Payment Payment --*/
+
+.payment_type_sect > .inner_wrapp {
+    padding: 4px 12px 8px 12px;
+}
+
+.payment_type_footer .inline_3 > div {
+	width: 95px;
+}
+
+.payment_type_footer .inline_3 > div > .payment_type_btn {
+	width: 100%;
+	min-width: 100%;
+	font-size: 12px;
+}
+
+.payment_type_thumb h3 {
+    padding: 3px 0 6px 3px;
+}
+
+.payment_type_thumb .inner {
+    padding: 9px 13px 10px 45px;
+}
+
+.payment_type_thumb .inner:before {
+    top: 13px;
+    left: 14px;
+}
+
+/*-- /Payment Payment --*/
+
+/*-- Messages Empty Chat --*/
+
+.h1_wrapp_3_2 {
+    padding-top: 1px;
+}
+
+.empty_chat {
+    margin: 38px auto;
+}
+
+/*-- /Messages Empty Chat --*/
+
+/*-- Messages Items List --*/
+
+.back_link_wrapp_2.white_bg_resp {
+    border-bottom: none;
+}
+
+.messages_items {
+	margin-top: 8px;
+}
+
+.message_item {
+    border-top: 1px solid #ECECEC;
+}
+
+.chat_header {
+    box-shadow: none;
+    padding: 0;
+}
+
+.person_info_thumb h3 {
+    padding: 1px 0;
+}
+
+.person_info_thumb p {
+    padding: 1px 0;
+}
+
+.chat_header_wrapp {
+	border-bottom: 1px solid #ECECEC;
+}
+
+.chat_header_wrapp.white_bg_resp {
+    padding: 10px 15px 35px 15px;
+}
+
+.person_info_dr_dots {
+	width: 24px;
+    height: 24px;
+    background-image: url(img/dots_vertical.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;	
+}
+
+.person_info_dr_wrapp {
+	position: absolute;
+    top: 14px;
+    right: 3px;
+}
+
+/*-- /Messages Items List --*/
+
+}
+
+@media only screen and (max-width: 360px) {
+
+/*-- Header --*/
+
+.novisible_360 {
+	display: none !important;
+}
+
+/*-- /Header --*/
+
+}
+
+@media only screen and (max-width: 355px) {
+
+/*-- Header --*/
+
+.resp_menu_row_2 > div:nth-child(even) {
+    width: 100%;
+    padding: 8px 0 0 0;
+}
+
+.acc_thumb_resp h3 {
+    font-size: 14px;
+}
+
+.acc_thumb_resp .grey_link {
+    font-size: 12px;
+}
+
+.acc_thumb_resp .grey_link svg {
+    top: -2px;
+}
+
+/*-- /Header --*/
+
+/*-- Account Template --*/
+
+.header_resp_two_cols .white_pill_5 {
+    min-width: 110px;
+}
+
+/*-- /Account Template --*/
+
+/*-- Succes Message --*/
+
+.succes_message img {
+    margin: 4px auto;
+}
+
+.succes_message h3 {
+    font-size: 28px;
+}
+
+/*-- /Succes Message --*/
+
+}
