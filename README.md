@@ -1,1 +1,22 @@
-
+# http://deniswebsites.github.io/allbcmarketplace/reg_email.html
+# http://deniswebsites.github.io/allbcmarketplace/reg_email_4.html
+# http://deniswebsites.github.io/allbcmarketplace/reg_tel.html
+# http://deniswebsites.github.io/allbcmarketplace/reg_tel_3.html
+# http://deniswebsites.github.io/allbcmarketplace/auth_email.html
+# http://deniswebsites.github.io/allbcmarketplace/auth_tel.html
+# http://deniswebsites.github.io/allbcmarketplace/auth_tel_2.html
+# http://deniswebsites.github.io/allbcmarketplace/private_notifications.html
+# http://deniswebsites.github.io/allbcmarketplace/my_objects_objects.html
+# http://deniswebsites.github.io/allbcmarketplace/my_objects_added_objects.html
+# http://deniswebsites.github.io/allbcmarketplace/my_objects_locations_selected_empty.html
+# http://deniswebsites.github.io/allbcmarketplace/my_objects_offices_context_menu.html
+# http://deniswebsites.github.io/allbcmarketplace/payment_tarif.html
+# http://deniswebsites.github.io/allbcmarketplace/payment_promotion.html
+# http://deniswebsites.github.io/allbcmarketplace/payment_payment.html
+# http://deniswebsites.github.io/allbcmarketplace/payment_succes.html
+# http://deniswebsites.github.io/allbcmarketplace/payment_error.html
+# http://deniswebsites.github.io/allbcmarketplace/add_object.html
+# http://deniswebsites.github.io/allbcmarketplace/add_room.html
+# http://deniswebsites.github.io/allbcmarketplace/messages_empty_chat.html
+# http://deniswebsites.github.io/allbcmarketplace/messages_list.html
+# http://deniswebsites.github.io/allbcmarketplace/chat_screen.html
