@@ -2,14 +2,6 @@
 
 /*-- Header --*/
 
-/*.header_site_row > .col_3 {
-    width: 23%;
-}
-
-.header_site_row > .col_4 {
-    width: 19%;
-}*/
-
 .main_nav > li > a {
     padding: 26px 10px 25px 10px;
 }
@@ -32,8 +24,6 @@
 
 .icon_link {
     min-width: 20px;
-    /*padding: 24px 2px 14px 2px;*/
-    /*padding: 17px 2px 14px 2px;*/
 }
 
 .lang_drp .dropdown_title {
@@ -61,6 +51,18 @@
 }
 
 /*-- /Header --*/
+
+}
+
+@media only screen and (max-width: 1340px) {
+
+/*-- Section 3 - Main Page New --*/
+
+.objects_thumbs .object_card_2 {
+    width: calc(50% - 20px);
+}
+
+/*-- /Section 3 - Main Page New --*/
 
 }
 
@@ -182,9 +184,22 @@
 
 /*-- /Add Object --*/
 
+/*-- Section 1 - Main Page New --*/
+
+.search_object_two_cols > div:nth-child(1) {
+    width: calc(100% - 115px);
+}
+
+.search_object_two_cols > div:nth-child(2) {
+    width: 115px;
+}
+
+/*-- Section 1 - Main Page New --*/
+
 }
 
 @media only screen and (max-width: 900px) {
+
 /*-- Account Template --*/
 
 .header_two_cols > .left_col {
@@ -236,6 +251,206 @@
 
 /*-- /Payment Payment --*/
 
+/*-- Data Company --*/
+
+.tabs_links_pills {
+    flex-wrap: nowrap;
+}
+
+.tabs_links_pills li a {
+    white-space: nowrap;
+}
+
+.sidebar_menu_scroll .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonLeft {
+    display: block !important;
+    width: 36px !important;
+    height: 36px !important;
+    cursor: pointer;
+    background-image: url(img/scroll_left_arrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: -33px;
+    opacity: 1;
+    -webkit-transition-property: box-shadow;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: box-shadow;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: box-shadow;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: box-shadow;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: box-shadow;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.sidebar_menu_scroll .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonRight {
+    display: block !important;
+    width: 36px !important;
+    height: 36px !important;
+    cursor: pointer;
+    background-image: url(img/scroll_right_arrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: -33px;
+    opacity: 1;
+    -webkit-transition-property: box-shadow;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: box-shadow;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: box-shadow;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: box-shadow;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: box-shadow;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.sidebar_menu_scroll .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonLeft:hover {
+    -webkit-box-shadow: 0 5px 5px 0 rgba(255,255,255,.2);
+    -moz-box-shadow: 0 5px 5px 0 rgba(255,255,255,.2);
+    box-shadow: 0 5px 5px 0 rgba(255,255,255,.2);
+}
+
+.sidebar_menu_scroll .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonRight:hover {
+    -webkit-box-shadow: 0 5px 5px 0 rgba(255,255,255,.2);
+    -moz-box-shadow: 0 5px 5px 0 rgba(255,255,255,.2);
+    box-shadow: 0 5px 5px 0 rgba(255,255,255,.2);
+}
+
+.tabs_scroll .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonLeft {
+    display: block !important;
+    width: 36px !important;
+    height: 36px !important;
+    cursor: pointer;
+    background-image: url(img/scroll_left_arrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: -38px;
+    opacity: 1;
+    -webkit-transition-property: box-shadow;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: box-shadow;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: box-shadow;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: box-shadow;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: box-shadow;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.tabs_scroll .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonRight {
+    display: block !important;
+    width: 36px !important;
+    height: 36px !important;
+    cursor: pointer;
+    background-image: url(img/scroll_right_arrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: -41px;
+    opacity: 1;
+    -webkit-transition-property: box-shadow;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: box-shadow;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: box-shadow;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: box-shadow;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: box-shadow;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.tabs_scroll .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonLeft:hover {
+    -webkit-box-shadow: 0 5px 5px 0 rgba(255,255,255,.2);
+    -moz-box-shadow: 0 5px 5px 0 rgba(255,255,255,.2);
+    box-shadow: 0 5px 5px 0 rgba(255,255,255,.2);
+}
+
+.tabs_scroll .mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonRight:hover {
+    -webkit-box-shadow: 0 5px 5px 0 rgba(255,255,255,.2);
+    -moz-box-shadow: 0 5px 5px 0 rgba(255,255,255,.2);
+    box-shadow: 0 5px 5px 0 rgba(255,255,255,.2);
+}
+
+.h1_wrapp_3_2 {
+    padding-top: 3px;
+}
+
+.tabs_scroll + .objects_thumbs {
+    margin-top: -16px;
+}
+
+.pagination_wrapp_3 {
+    padding: 15px 0 25px 0;
+}
+
+.grey_tags_wrapp .blue_link {
+    font-size: 12px;
+}
+
+/*-- /Data Company --*/
+
+/*-- Section 1 - Main Page New --*/
+
+.search_object_tree_cols > div:nth-child(1) {
+    width: 170px;
+}
+
+.search_object_tree_cols > div:nth-child(2) {
+    width: 120px;
+}
+
+.search_object_tree_cols > div:nth-child(3) {
+    width: calc(100% - 290px);
+}
+
+.office_input .rotate_icon {
+    right: 10px;
+}
+
+/*-- Section 1 - Main Page New --*/
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -284,6 +499,136 @@
 
 /*-- /My Objects --*/
 
+/*-- Company Data --*/
+
+.user_promo {
+    margin: -9px -15px 25px -15px;
+}
+
+.white_box {
+    margin-bottom: 17px;
+}
+
+.user_data_input .input_icon {
+    top: 13px;
+}
+
+.user_data_input .input_link {
+    top: 18px;
+}
+
+.checked_input:after {
+    top: 11px;
+}
+
+.user_promo_footer > div {
+    padding-top: 20px;
+}
+
+.user_data_input input {
+    height: 49px;
+    line-height: 48px;
+}
+
+/*-- /Company Data --*/
+
+/*-- Data Company --*/
+
+.data_two_cols {
+    margin-top: -20px;
+}
+
+.white_box_2 {
+    padding: 23px 20px 37px 20px;
+}
+
+/*-- /Data Company --*/
+
+/*-- Section 1 - Main Page New --*/
+
+.promo_box {
+    padding: 58px 0 15px 0;
+}
+
+.promo_title_wrapp h1 {
+    font-size: 28px;
+}
+
+.search_tabs {
+    padding: 22px 0 18px 0;
+}
+
+.search_object_two_cols {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    padding: 0 10px;
+}
+
+.search_object_two_cols > div:nth-child(1) {
+    width: 100%;
+    padding: 0;
+}
+
+.search_object_two_cols > div:nth-child(2) {
+    width: 100%;
+    padding: 0;
+}
+
+.search_object_tree_cols {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    background-color: transparent;
+    padding: 4px 0 8px 0;
+}
+
+.search_object_tree_cols > div {
+    background: #fff;
+    border-radius: 6px;
+    padding: 8px 0;
+    margin: 4px 0;
+}
+
+.search_object_tree_cols > div:nth-child(1) {
+    width: 100%;
+}
+
+.search_object_tree_cols > div:nth-child(2) {
+    width: 100%;
+}
+
+.search_object_tree_cols > div:nth-child(3) {
+    width: 100%;
+}
+
+.search_object_two_cols > div:nth-child(2) {
+    width: 100%;
+}
+
+.office_input .rotate_icon {
+    top: 10px;
+    right: 11px;
+}
+
+.search_tab_content {
+    padding: 8px 8px 15px 8px;
+}
+
+/*-- /Section 1 - Main Page New --*/
+
+/*-- Section 3 - Main Page New --*/
+
+.objects_thumbs.object_cards_slider .slick-slide {
+    padding: 20px 10px;
+}
+
+.objects_thumbs .object_card_2 {
+    width: 100%;
+    margin: 0;
+}
+
+/*-- /Section 3 - Main Page New --*/
+
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -312,6 +657,118 @@
 }
 
 /*-- /Account Template --*/
+
+/*-- Company Data --*/
+
+.payments_table.brokers_list_table {
+    margin-top: -22px;
+    margin-bottom: 31px;
+}
+
+.payments_table.brokers_list_table .table_row.table_header {
+    display: none;
+}
+
+.payments_table.brokers_list_table .table_row {
+    position: relative;
+    padding: 17px 16px 5px 5px;
+}
+
+.payments_table.brokers_list_table .table_row .cell:nth-child(1) {
+    width: 70px;
+    padding-left: 10px;
+}
+
+.payments_table.brokers_list_table .table_row .cell:nth-child(2) {
+    width: calc(100% - 70px);
+    padding-right: 0;
+}
+
+.payments_table.brokers_list_table .table_row .cell:nth-child(3) {
+    width: 100%;
+    padding-top: 12px;
+    padding-right: 0;
+}
+
+.payments_table.brokers_list_table .table_row .cell:nth-child(4) {
+    width: 100%;
+    padding-right: 0;
+}
+
+.cell_two_cols {
+    display: flex;
+    display: -webkit-flex;
+    padding-bottom: 10px;
+}
+
+.cell_two_cols > div:nth-child(1) {
+    width: 63%;
+    padding: 3px 0;
+}
+
+.cell_two_cols > div:nth-child(2) {
+    width: 37%;
+    padding: 3px 0;
+    text-align: right;
+}
+
+.payments_table.brokers_list_table .table_row .cell:nth-child(5) {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 26px;
+    right: 17px;
+}
+
+.brokers_list_table .resp_title {
+    display: block;
+}
+
+.payments_table.brokers_list_table_2 .table_row {
+    padding: 17px 16px 15px 5px;
+}
+
+.payments_table.brokers_list_table_2 .table_row .cell:nth-child(5) {
+    min-width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    right: 0;
+    padding: 0;
+}
+
+.order_btns {
+    min-width: 100%;
+    margin: 0 -6px;
+}
+
+.order_btns > div {
+    width: 50%;
+}
+
+.order_btns > div:nth-child(even) {
+    padding-right: 0;
+}
+
+.order_btn {
+    min-width: 100%;
+    height: 40px;
+}
+
+.payments_table.brokers_list_table_3 .table_row .cell:nth-child(5) {
+    padding-top: 13px;
+    padding-left: 10px;
+}
+
+/*-- /Company Data --*/
+
+/*-- Section 3 - Main Page New --*/
+
+.object_card_2_content {
+    text-align: left;
+}
+
+/*-- /Section 3 - Main Page New --*/
 
 }
 
@@ -535,6 +992,132 @@ button.basket_pill {
 }
 
 /*-- /Messages Items List --*/
+
+/*-- Refill --*/
+
+.header_two_cols {
+    padding: 5px 0 5px 0;
+}
+
+.payment_type_sect.payment_type_sect_2 {
+    margin-top: 9px;
+    margin-bottom: 30px;
+}
+
+.step_thumb p {
+    font-size: 12px;
+}
+
+/*-- /Refill --*/
+
+/*-- Company Data --*/
+
+.white_box {
+    padding: 8px 15px 21px 15px;
+}
+
+.checked_input:after {
+    right: 11px;
+}
+
+.user_data_inputs_two_cols > div:nth-child(odd) {
+    padding: 15px 0;
+}
+
+.user_data_input input {
+    height: 48px;
+    line-height: 47px;
+}
+
+.user_data_inputs_two_cols > div:nth-child(even) {
+    padding-bottom: 2px;
+}
+
+.data_company_form .white_box:last-child {
+    margin-bottom: 115px;
+}
+
+.data_company_form .password_white_box .user_data_inputs_two_cols > div:nth-child(odd) {
+    padding: 10px 0;
+}
+
+.data_company_form .password_white_box .white_box_title {
+    padding-bottom: 9px;
+}
+
+/*-- /Company Data --*/
+
+/*-- Section 1 - Main Page New --*/
+
+.offices_val {
+    max-width: 100%;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.offices_val > div {
+    width: 100%;
+    padding: 0;
+}
+
+.offices_val_thumb:before {
+    top: 9px;
+}
+
+/*-- /Section 1 - Main Page New --*/
+
+}
+
+@media only screen and (max-width: 480px) {
+
+/*-- Company Data --*/
+
+.submit_fixed_menu > div:nth-child(1) {
+    width: 100%;
+    padding: 10px 0 0 0;
+}
+
+.submit_fixed_menu > div:nth-child(2) {
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+.submit_btns_wrapp > div {
+    width: 50%;
+}
+
+.data_submit_btn {
+    width: 100%;
+}
+
+/*-- /Company Data --*/
+
+/*-- Save Popup --*/
+
+.save_popup {
+    padding: 17px 20px 15px 20px;
+}
+
+.save_popup_title h3 {
+    font-size: 20px;
+}
+
+.save_popup_form p {
+    padding: 7px 0;
+    font-size: 14px;
+}
+
+.save_popup_form .inline_3 {
+    margin: 0;
+    flex-direction: column-reverse;
+}
+
+.save_popup_form .inline_3 > div {
+    width: 100%;
+    padding: 4px 0;
+}
+
+/*-- /Save Popup --*/
 
 }
 

@@ -1735,12 +1735,14 @@
 
 	.account_templ > .left_col {
 		width: 100%;
+		padding-right: 0;
 		border: none;
 		background-color: transparent;
 	}
 
 	.account_templ > .right_col {
 		width: 100%;
+		padding-left: 0;
 		padding: 0;
 	}
 
@@ -3125,7 +3127,7 @@
 
 	.data_pill {
 		padding: 11px 15px;
-		font-size: 12px;
+		font-size: 14px;
 	}
 
 	.tabs_links_3 li a {
@@ -5088,10 +5090,10 @@
 	    padding: 4px 6px;
 	}
 
-	.pagination li a {
+/*	.pagination li a {
 	    min-width: 22px;
 	    padding: 0 5px;
-	}
+	}*/
 
 	.object_item_2 > div:nth-child(1) {
 	    width: 100%;
