@@ -2420,7 +2420,7 @@ textarea:focus {
 }
 
 .row_2 {
-    max-width: 1080px;
+    max-width: 1090px;
 }
 
 .promo_title_wrapp {
@@ -2630,8 +2630,6 @@ textarea:focus {
 .orange_pill:hover {
     background-color: #FF4A11;
     box-shadow: none;
-/*    box-shadow: 0 0 1px rgba(12, 26, 75, .24), 0 3px 18px -1px rgba(50, 50, 71, .3);
-    -webkit-box-shadow: 0 0 1px rgba(12, 26, 75, .24), 0 3px 18px -1px rgba(50, 50, 71, .3);*/
 }
 
 .search_box > div:nth-child(2) .orange_pill {

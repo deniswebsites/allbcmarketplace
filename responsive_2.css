@@ -86,6 +86,18 @@
 
 }
 
+@media only screen and (max-width: 1240px) {
+
+/*-- Section 1 - Object New --*/
+
+.object_new_promo_content {
+    padding: 20px 0 50px;
+}
+
+/*-- /Section 1 - Object New --*/
+
+}
+
 @media only screen and (max-width: 1124px) {
 
 /*-- Header --*/
@@ -195,6 +207,83 @@
 }
 
 /*-- Section 1 - Main Page New --*/
+
+/*-- Section 1 - Object New --*/
+
+.object_new_title h1 {
+    font-size: 36px;
+}
+
+.object_new_promo_content {
+    padding: 20px 0 30px;
+}
+
+.object_new_thumb p {
+    font-size: 15px;
+}
+
+.transparent_blue_pill {
+    padding: 10px 10px;
+}
+
+.transparent_blue_pill span {
+    font-size: 12px;
+}
+
+.white_tag p {
+    font-size: 12px;
+}
+
+/*-- /Section 1 - Object New --*/
+
+/*-- Section 5 - Object New --*/
+
+.blue_thumb {
+    width: calc(33.33% - 20px);
+}
+
+/*-- /Section 5 - Object New --*/
+
+/*-- Section 6 - Object New --*/
+
+.object_dropdown_content > .left_col {
+    width: calc(100% - 330px);
+}
+
+.object_dropdown_content > .right_col {
+    width: 330px;
+}
+
+.object_descript_flex_row_2 {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.object_descript_flex_row_2 > div:nth-child(1) {
+    width: 100%;
+}
+
+.object_descript_flex_row_2 > div:nth-child(2) {
+    width: 100%;
+}
+
+/*-- /Section 6 - Object New --*/
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+/*-- Section 1 - Object New --*/
+
+.object_new_promo_content {
+    padding: 20px 0 10px;
+}
+
+.object_new_inline_2 > div {
+    width: 50%;
+}
+
+/*-- /Section 1 - Object New --*/
 
 }
 
@@ -451,6 +540,58 @@
 
 /*-- Section 1 - Main Page New --*/
 
+/*-- Section 5 - Object New --*/
+
+.blue_thumbs_section {
+    padding: 10px 0 10px 0;
+}
+
+.blue_thumbs_wrapp {
+    margin: 10px -10px;
+}
+
+.blue_thumb {
+    width: calc(50% - 20px);
+}
+
+/*-- /Section 5 - Object New --*/
+
+/*-- Section 9 - Object New --*/
+
+.sect_9_ob_new {
+    padding: 20px 0 20px 0;
+}
+
+.h2_wrapp_ob_new {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.h2_wrapp_ob_new > .left_col {
+    width: 100%;
+}
+
+.h2_wrapp_ob_new > .right_col {
+    width: 100%;
+    padding-top: 5px;
+}
+
+.filter_tags_two_cols {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.filter_tags_two_cols > div:nth-child(1) {
+    width: 100%;
+    padding: 0 0 5px 0;
+}
+
+.filter_tags_two_cols > div:nth-child(2) {
+    width: 100%;
+}
+
+/*-- /Section 9 - Object New --*/
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -628,6 +769,108 @@
 
 /*-- /Section 3 - Main Page New --*/
 
+/*-- Section 2 - Object New --*/
+
+.sect_3_ob_new {
+    padding: 15px 0 15px 0;
+}
+
+.object_new_article > .left_col {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.object_new_article > .right_col {
+    display: none;
+}
+
+.object_new_article h2 {
+    padding: 9px 0;
+    font-size: 22px;
+}
+
+.object_new_article p {
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+/*-- /Section 2 - Object New --*/
+
+/*-- Section 3 - Object New --*/
+
+.infrastructure_thumb {
+    width: calc(33.33% - 20px);
+}
+
+.infrastructure_thumb:nth-child(1), .infrastructure_thumb:nth-child(2), .infrastructure_thumb:nth-child(3), .infrastructure_thumb:nth-child(4), .infrastructure_thumb:nth-child(5) {
+    width: calc(33.33% - 20px);
+}
+
+/*-- /Section 3 - Object New --*/
+
+/*-- Section 6 - Object New --*/
+
+.object_dropdowns_header {
+    padding: 0 10px;
+}
+
+.object_dropdowns_header > div:nth-child(1) {
+    width: 25%;
+}
+
+.object_dropdowns_header > div:nth-child(2) {
+    display: none;
+}
+
+.object_dropdowns_header > div:nth-child(3) {
+    display: none;
+}
+
+.object_dropdowns_header > div:nth-child(4) {
+    width: 35%;
+}
+
+.object_dropdowns_header > div:nth-child(5) {
+    width: 40%;
+}
+
+.object_dropdown_header > div:nth-child(1) {
+    width: 25%;
+}
+
+.object_dropdown_header > div:nth-child(2) {
+    display: none;
+}
+
+.object_dropdown_header > div:nth-child(3) {
+    display: none;
+}
+
+.object_dropdown_header > div:nth-child(4) {
+    width: 35%;
+}
+
+.object_dropdown_header > div:nth-child(5) {
+    width: calc(40% - 90px);
+}
+
+.object_dropdown_header {
+    padding: 0 10px;
+}
+
+.object_dropdown_content {
+    padding: 6px 15px 10px 15px;
+}
+
+.object_dropdown_content > .left_col {
+    width: calc(100% - 290px);
+}
+
+.object_dropdown_content > .right_col {
+    width: 290px;
+}
+
+/*-- /Section 6 - Object New --*/
 
 }
 
@@ -769,6 +1012,45 @@
 }
 
 /*-- /Section 3 - Main Page New --*/
+
+/*-- Section 3 - Object New --*/
+
+.infrastructure_thumb {
+    width: calc(50% - 20px);
+}
+
+.infrastructure_thumb:nth-child(1), .infrastructure_thumb:nth-child(2), .infrastructure_thumb:nth-child(3), .infrastructure_thumb:nth-child(4), .infrastructure_thumb:nth-child(5) {
+    width: calc(50% - 20px);
+}
+
+.infrastructure_thumb p {
+    font-size: 12px;
+}
+
+/*-- /Section 3 - Object New --*/
+
+/*-- Section 6 - Object New --*/
+
+.object_dropdown_content {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.object_dropdown_content > .left_col {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.object_dropdown_content > .right_col {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.object_descript_table_row {
+    padding: 0;
+}
+
+/*-- /Section 6 - Object New --*/
 
 }
 
@@ -1066,6 +1348,129 @@ button.basket_pill {
 
 /*-- /Section 1 - Main Page New --*/
 
+/*-- Section 1 - Object New --*/
+
+.promo_content_row {
+    padding: 40px 15px 10px 15px;
+}
+
+.object_new_promo_content {
+    padding: 20px 0 10px;
+}
+
+.object_new_inline_2 {
+    margin: 0;
+}
+
+.object_new_inline_2 > div {
+    padding: 5px 0;
+    width: 100%;
+}
+
+.object_new_title h1 {
+    font-size: 24px;
+}
+
+.white_tag {
+    min-height: 27px;
+}
+
+.white_tag p {
+    font-size: 11px;
+}
+
+.transparent_blue_pill {
+    padding: 5px 10px;
+    min-height: 20px;
+}
+
+.icon_link_3 span {
+    font-size: 13px;
+}
+
+.object_new_controls > div:nth-child(1) {
+    padding: 4px 10px 0 0;
+}
+
+.object_new_slider_arrow .slick-prev {
+    margin-right: 10px;
+}
+
+.object_new_controls > div:nth-child(2) {
+    width: 70px;
+}
+
+/*-- /Section 1 - Object New --*/
+
+/*-- Section 4 - Object New --*/
+
+.object_new_controls > div:nth-child(1) {
+    padding: 1px 10px 0 0;
+}
+
+.object_new_controls_2 > div:nth-child(2) {
+    padding-top: 0;
+}
+
+.slide_thumb {
+    display: block;
+    height: 220px;
+}
+
+/*-- /Section 4 - Object New --*/
+
+}
+
+@media only screen and (max-width: 550px) {
+
+/*-- Section 6 - Object New --*/
+
+.object_dropdowns_header > div:nth-child(1) {
+    width: 90px;
+}
+
+.object_dropdowns_header > div:nth-child(4) {
+    width: 120px;
+}
+
+.object_dropdowns_header > div:nth-child(5) {
+    width: 100px;
+}
+
+.object_dropdown_header > div:nth-child(1) {
+    width: 90px;
+}
+
+.object_dropdown_header > div:nth-child(4) {
+    width: 120px;
+}
+
+.object_dropdown_header > div:nth-child(5) {
+    width: 100px;
+}
+
+.object_dropdown_header > div:nth-child(6) {
+    width: 65px;
+}
+
+.object_dropdown_header .object_hearth_link {
+    margin: -9px 0 0 0;
+}
+
+.cell_text p {
+    font-size: 11px;
+}
+
+.green_pill_obj {
+    padding: 9px 10px;
+}
+
+.blue_pill_obj {
+    padding: 9px 10px;
+}
+
+/*-- /Section 6 - Object New --*/
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -1118,6 +1523,60 @@ button.basket_pill {
 }
 
 /*-- /Save Popup --*/
+
+/*-- Section 5 - Object New --*/
+
+.blue_thumbs_section {
+    padding: 10px 0 0 0;
+}
+
+.blue_thumbs_wrapp {
+    margin: 10px 0;
+}
+
+.blue_thumb {
+    width: 100%;
+    margin: 10px 0;
+}
+
+/*-- /Section 5 - Object New --*/
+
+/*-- Section 6 - Object New --*/
+
+.object_dropdown_slider_wrapp {
+    height: 290px;
+}
+
+.object_dropdown_slider .slide {
+    height: 290px;
+}
+
+.count_slides_wrapp {
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    padding-left: 10px;
+}
+
+.object_dropdown_header {
+    position: relative;
+}
+
+.object_dropdown_header > div {
+    padding-top: 27px;
+}
+
+.object_dropdown_header > div:nth-child(6) {
+    position: absolute;
+    top: 4px;
+    right: -3px;
+    padding-top: 0;
+}
+
+.green_pill_2 {
+    min-width: auto;
+}
+
+/*-- /Section 6 - Object New --*/
 
 }
 
@@ -1175,5 +1634,23 @@ button.basket_pill {
 }
 
 /*-- /Succes Message --*/
+
+/*-- Section 3 - Object New --*/
+
+.infrastructure_thumbnails {
+    margin: 10px 0;
+}
+
+.infrastructure_thumb {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.infrastructure_thumb:nth-child(1), .infrastructure_thumb:nth-child(2), .infrastructure_thumb:nth-child(3), .infrastructure_thumb:nth-child(4), .infrastructure_thumb:nth-child(5) {
+    width: 100%;
+    margin: 10px 0;
+}
+
+/*-- /Section 3 - Object New --*/
 
 }
