@@ -168,6 +168,18 @@
 
 /*-- /My Objects --*/
 
+/*-- Section 1 - Object New 2 --*/
+
+.object_new_2_slider_wrapp {
+    height: 550px;
+}
+
+.object_new_2_slide {
+    height: 550px;
+}
+
+/*-- /Section 1 - Object New 2 --*/
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -268,6 +280,22 @@
 }
 
 /*-- /Section 6 - Object New --*/
+
+/*-- Section 1 - Object New 2 --*/
+
+.object_new_2_slider_wrapp {
+    height: 450px;
+}
+
+.object_new_2_slide {
+    height: 450px;
+}
+
+.object_new_2_sect_wrapp {
+    padding: 30px 0 2px 0;
+}
+
+/*-- /Section 1 - Object New 2 --*/
 
 }
 
@@ -592,6 +620,33 @@
 
 /*-- /Section 9 - Object New --*/
 
+/*-- Section 1 - Object New 2 --*/
+
+.object_new_2_templ > .left_col:nth-child(1) {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.object_new_2_templ > .right_col:nth-child(2) {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.object_new_2_resp_two_cols {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.object_new_2_resp_two_cols > div {
+    width: 50%;
+    padding: 10px;
+}
+
+/*-- /Section 1 - Object New 2 --*/
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -872,6 +927,28 @@
 
 /*-- /Section 6 - Object New --*/
 
+/*-- Section 1 - Object New 2 --*/
+
+.object_new_2_title > div:nth-child(1) {
+    width: 100%;
+    padding: 5px 0 5px 0;
+}
+
+.object_new_2_title > div:nth-child(2) {
+    width: 100%;
+    padding: 5px 0 5px 0;
+}
+
+.object_new_2_title h1 {
+    font-size: 24px;
+}
+
+.object_new_3_white_box .orange_pill_obj_2 {
+    width: 100%;
+}
+
+/*-- /Section 1 - Object New 2 --*/
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -1051,6 +1128,43 @@
 }
 
 /*-- /Section 6 - Object New --*/
+
+/*-- Section 1 - Object New 2 --*/
+
+.params_thumbs {
+    margin: 10px -8px;
+}
+
+.object_new_2_slider_wrapp {
+    height: 350px;
+}
+
+.object_new_2_slide {
+    height: 350px;
+}
+
+.object_new_2_nav {
+    margin: 0 -3px;
+}
+
+.object_new_2_nav li {
+    padding: 3px;
+}
+
+.object_new_2_resp_two_cols {
+    margin: 0;
+}
+
+.object_new_2_resp_two_cols > div {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.object_new_2_white_box {
+    margin-bottom: 0;
+}
+
+/*-- /Section 1 - Object New 2 --*/
 
 }
 
@@ -1418,6 +1532,38 @@ button.basket_pill {
 }
 
 /*-- /Section 4 - Object New --*/
+
+/*-- Section 1 - Object New 2 --*/
+
+.count_slides_wrapp_2 {
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+}
+
+.object_new_2_nav_wrapp {
+    padding: 5px 10px;
+}
+
+.object_new_2_nav li a {
+    min-height: 29px;
+    padding: 3px 5px;
+    font-size: 12px;
+}
+
+.object_new_2_sect_wrapp .h2_object_title h2 {
+    font-size: 16px;
+}
+
+.dr_article_2 h2 {
+    padding: 10px 0 10px 0;
+    font-size: 16px;
+}
+
+.blue_thumbs_section_2 .h2_thumbs_wrapp h2 {
+    font-size: 16px;
+}
+
+/*-- /Section 1 - Object New 2 --*/
 
 }
 

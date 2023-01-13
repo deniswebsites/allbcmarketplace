@@ -38,3 +38,4 @@
 # http://deniswebsites.github.io/allbcmarketplace/index_new.html
 # http://deniswebsites.github.io/allbcmarketplace/index_new_popup.html
 # http://deniswebsites.github.io/allbcmarketplace/object_new.html
+# http://deniswebsites.github.io/allbcmarketplace/object_new_2.html
