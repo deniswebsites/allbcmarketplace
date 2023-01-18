@@ -291,6 +291,28 @@
 
 /*-- /Section 1 - Landing New 2 --*/
 
+/*-- Section 3 - Object Page --*/
+
+.contacts_tree_cols.office_page_contacts_tree_cols > div:nth-child(1) {
+    width: 40%;
+}
+
+.contacts_tree_cols.office_page_contacts_tree_cols > div:nth-child(2) {
+    width: 60%;
+    padding-right: 0;
+}
+
+.contacts_tree_cols.office_page_contacts_tree_cols > div:nth-child(3) {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.office_page_contacts_tree_cols .person_form_wrapp_2 {
+    max-width: 100%;
+}
+
+/*-- /Section 3 - Object Page --*/
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -892,6 +914,18 @@
 }
 
 /*-- /Section 9 - Landing New 2 --*/
+
+/*-- Section 3 - Object Page --*/
+
+.contacts_tree_cols.office_page_contacts_tree_cols > div:nth-child(1) {
+    width: 350px;
+}
+
+.contacts_tree_cols.office_page_contacts_tree_cols > div:nth-child(2) {
+    width: calc(100% - 350px);
+}
+
+/*-- /Section 3 - Object Page --*/
 
 }
 
@@ -1606,6 +1640,20 @@
 }
 
 /*-- /Section 4 - Landing New --*/
+
+/*-- Section 3 - Object Page --*/
+
+.contacts_tree_cols.office_page_contacts_tree_cols > div:nth-child(1) {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.contacts_tree_cols.office_page_contacts_tree_cols > div:nth-child(2) {
+    width: 100%;
+    padding: 10px 0;
+}
+
+/*-- /Section 3 - Object Page --*/
 
 }
 
@@ -2443,5 +2491,19 @@ button.basket_pill {
 }
 
 /*-- /Section 3 - Object New --*/
+
+/*-- Section 3 - Object Page --*/
+
+.person_info_thumb_office {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.office_page_contacts_tree_cols .person_info_thumb > div:nth-child(2) {
+    width: 100%;
+    padding: 10px 0 0 0;
+}
+
+/*-- /Section 3 - Object Page --*/
 
 }

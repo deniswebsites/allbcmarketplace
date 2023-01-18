@@ -4380,3 +4380,68 @@
 
 /*-- /Section 9 - Landing New 2 --*/
 
+/*-- Section 1 - Ofice Page 2 --*/
+
+.person_info_thumb .office_p_2_soc_list {
+	margin: -9px -3px 0 -3px;
+}
+
+.soc_list_4.office_p_2_soc_list li a {
+    width: 32px;
+    height: 32px;
+}
+
+.soc_list_4.office_p_2_soc_list li {
+    padding: 3px;
+}
+
+.person_info_thumb_office .tel_wrapp_2 {
+    padding: 4px 0 8px 0;
+}
+
+/*-- /Section 1 - Ofice Page 2 --*/
+
+/*-- Section 3 - Object Page --*/
+
+.contacts_tree_cols.office_page_contacts_tree_cols > div:nth-child(1) {
+    width: 29%;
+}
+
+.contacts_tree_cols.office_page_contacts_tree_cols > div:nth-child(2) {
+    width: 30%;
+}
+
+.office_page_contacts_tree_cols .person_form_wrapp_2 {
+    max-width: 320px;
+}
+
+.office_page_contacts_tree_cols {
+
+}
+
+.office_page_contacts_tree_cols p.tel_p {
+    font-size: 14px;
+}
+
+.office_page_contacts_tree_cols .tel_p.novisible a {
+    font-size: 14px;
+}
+
+.office_page_contacts_tree_cols .person_info_thumb > div:nth-child(1) {
+    width: 115px;
+}
+
+.office_page_contacts_tree_cols .person_info_thumb > div:nth-child(2) {
+	width: calc(100% - 115px);
+    padding: 2px 0 0 8px;
+}
+
+.office_page_contacts_tree_cols .person_info_thumb .photo_box {
+	max-width: 105px;
+}
+
+.office_page_contacts_tree_cols .person_info_thumb .office_p_2_soc_list {
+    margin: -6px -3px 0 -3px;
+}
+
+/*-- /Section 3 - Object Page --*/
