@@ -381,7 +381,6 @@ function getScrollbar() {
       $(".sidebar_menu_scroll").mCustomScrollbar('destroy');
     }
   }
-
   if($(".tabs_scroll").length > 0) {
     if(bodyWidth <= 900) {
       $(".tabs_scroll").mCustomScrollbar({
@@ -394,7 +393,6 @@ function getScrollbar() {
       $(".tabs_scroll").mCustomScrollbar('destroy');
     }
   }
-
   if($(".filter_tags_wrapp").length > 0) {
     if(bodyWidth <= 900) {
       $(".filter_tags_wrapp").mCustomScrollbar({
@@ -404,7 +402,6 @@ function getScrollbar() {
       $(".filter_tags_wrapp").mCustomScrollbar('destroy');
     }
   }
-
 }
 
 function getChartWidth() {
@@ -488,6 +485,16 @@ function getPromoSliderParams() {
   });
 }
 
+function getLandNewPromoParams() {
+  if($("#landNewPromo").length > 0) {
+    landNewPromoHeight = $(window).height() - $("#witeHeader").height();
+    $("#landNewPromo, .land_new_slide").css({"height" : "auto"});
+    $("#landNewPromo, .land_new_slide").css({
+      "height" : landNewPromoHeight + "px"
+    });
+  }
+}
+
 var w = window,
 d = document,
 e = d.documentElement,
@@ -498,7 +505,7 @@ $(window).on("load", function() {
   getBarsChart();
   getObjectCardsSlider();
   getScrollbar();
-  getSubmitFixedMenuParams();
+  getSubmitFixedMenuParams();  
   if($(".inner_scroll").length > 0) {
     $(".inner_scroll").mCustomScrollbar();
   }
@@ -513,6 +520,7 @@ $(window).on("load", function() {
       axis:"x"
     });
   }
+  getLandNewPromoParams();
 });
 
 $(window).resize(function() {
@@ -537,6 +545,7 @@ $(window).resize(function() {
     $(".more_filter_popup .close_popup").trigger("click");
   }
   getPromoSliderParams();
+  getLandNewPromoParams();
 });
 
 $(document).scroll(function() {
@@ -2071,5 +2080,108 @@ $(document).ready(function() {
           'fill="#000"/></svg></button>'
           });
         }
+
+        // ---------------
+
+        if( $(".land_new_slider").length > 0 ) {
+          $('.land_new_slider').on('init', function(e){
+            currenSlide = $(this).find('.slick-current');
+            currentIndex = parseInt(currenSlide.attr("data-slick-index"));
+            val = currentIndex + 1;
+            if(val <= 9) {
+              val = "0"+val;
+            }
+            $(".land_new_cur_sl").html(val);
+          });
+          $('.land_new_slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){            
+            val = nextSlide + 1;
+            if(val <= 9) {
+              val = "0"+val;
+            }
+            $(".land_new_cur_sl").html(val);
+          });
+          $(".land_new_slider").not(".slick-initialized").slick({
+            dots: false,
+            arrows: true,
+            speed: 1200,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            fade: true,
+            appendArrows: $(".land_new_slider_arrow"),
+            prevArrow: '<button class="photogalleryarrow_2 slick-prev slick-arrow" aria-label="Previous" type="button"><svg width="8" height="14"'+
+            ' viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">'+
+            '<path d="M2.82802 6.99928L7.77802 11.9493L6.36402 13.3633L1.58151e-05 6.99928L6.36402 0.63528L7.77802 2.04928L2.82802 6.99928Z"'+ 
+            'fill="#000"/></svg></button>',
+            nextArrow: '<button class="photogalleryarrow_2 slick-next slick-arrow" aria-label="Previous" type="button">'+
+            '<svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">'+
+            '<path d="M5.17198 7.00072L0.221985 2.05072L1.63598 0.636719L7.99998 7.00072L1.63598 13.3647L0.221985 11.9507L5.17198 7.00072Z" '+
+            'fill="#000"/></svg></button>'
+          });
+        }
+
+        // ------------------
+
+        if( $(".land_new_slider_2").length > 0 ) {
+          $(".land_new_slider_2").not(".slick-initialized").slick({
+            dots: false,
+            arrows: false,
+            speed: 1200,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            prevArrow: '<button class="photogalleryarrow_2 slick-prev slick-arrow" aria-label="Previous" type="button"><svg width="8" height="14"'+
+            ' viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">'+
+            '<path d="M2.82802 6.99928L7.77802 11.9493L6.36402 13.3633L1.58151e-05 6.99928L6.36402 0.63528L7.77802 2.04928L2.82802 6.99928Z"'+ 
+            'fill="#000"/></svg></button>',
+            nextArrow: '<button class="photogalleryarrow_2 slick-next slick-arrow" aria-label="Previous" type="button">'+
+            '<svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">'+
+            '<path d="M5.17198 7.00072L0.221985 2.05072L1.63598 0.636719L7.99998 7.00072L1.63598 13.3647L0.221985 11.9507L5.17198 7.00072Z" '+
+            'fill="#000"/></svg></button>',
+            responsive: [
+              {
+                breakpoint: 1124,
+                settings: {
+                  slidesToShow: 3
+                }
+              },
+              {
+                breakpoint: 800,
+                settings: {
+                  slidesToShow: 2
+                }
+              },
+              {
+                breakpoint: 530,
+                settings: {
+                  slidesToShow: 1
+                }
+              }
+            ]
+          });
+        }
+
+        // -----------------
+
+        $(".land_new_dropdown_item").each(function() {
+          if($(this).hasClass("active")) {
+            dr = $(this).find(".land_new_dropdown_table_box");
+            dr.slideDown(300);
+          }
+        });
+
+        $(".land_new_img_box, .land_new_dropdown_item_js, .slide_btn_right").click(function(e) {
+          e.preventDefault();
+          parent = $(this).closest(".land_new_dropdown_item");
+          table = parent.closest(".land_new_dropdown_boxes");
+          sl = parent.find(".land_new_dropdown_table_box");
+          if(sl.is(":hidden")) {
+            table.find(".land_new_dropdown_item").removeClass("active");
+            table.find(".land_new_dropdown_table_box").slideUp(300);
+            parent.addClass("active");
+            sl.slideDown(300);
+          } else {
+            parent.removeClass("active");
+            sl.slideUp(300);
+          }
+        });
 
 });
