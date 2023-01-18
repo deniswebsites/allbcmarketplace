@@ -13831,6 +13831,7 @@ h3 .tooltip {
     padding: 12px 14px 12px 14px;
     background-color: #303940;
     font-weight: normal;
+    white-space: normal;
     font-size: 12px;
     line-height: 160%;
     color: #E9EEF1; 

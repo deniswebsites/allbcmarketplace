@@ -39,3 +39,5 @@
 # http://deniswebsites.github.io/allbcmarketplace/index_new_popup.html
 # http://deniswebsites.github.io/allbcmarketplace/object_new.html
 # http://deniswebsites.github.io/allbcmarketplace/object_new_2.html
+# http://deniswebsites.github.io/allbcmarketplace/landing_new.html
+# http://deniswebsites.github.io/allbcmarketplace/landing_new_2.html
