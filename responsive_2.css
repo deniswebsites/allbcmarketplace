@@ -1788,6 +1788,28 @@
 
 /*-- /Section 2 - List Page 2 --*/
 
+/*-- Section 1 - News Magazine --*/
+
+.h1_wrapp_3_3 {
+    padding: 6px 0;
+}
+
+.h1_wrapp_3_3_descript {
+    padding: 6px 0 4px 0;
+}
+
+.news_thumbnails {
+    margin: 0;
+}
+
+.news_thumb {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 20px 7px 12px;
+}
+
+/*-- /Section 1 - News Magazine --*/
+
 }
 
 @media only screen and (max-width: 600px) {

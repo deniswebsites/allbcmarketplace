@@ -5000,3 +5000,123 @@
 
 /*-- /Section 2 - List Page 2 --*/
 
+/*-- Section 1 - News Magazine --*/
+
+.h1_wrapp_3_3 {
+	padding: 12px 0;
+}
+
+.h1_wrapp_3_3_descript {
+	padding: 10px 0 6px 0;
+}
+
+.h1_wrapp_3_3_descript h3 {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 140%;
+	text-transform: uppercase;
+	color: #314758;
+}
+
+.news_thumbnails {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -10px;
+}
+
+.news_thumb_title {
+	max-width: 280px;
+}
+
+.news_thumb {
+	display: flex;
+	width: calc(50% - 20px);
+	margin: 10px;
+	padding: 14px 4% 12px 16px;
+	border-radius: 6px;
+	background: transparent;
+	-webkit-transition-property: background, box-shadow;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-property: background, box-shadow;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+    -ms-transition-property: background, box-shadow;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+    -o-transition-property: background, box-shadow;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+    transition-property: background, box-shadow;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.news_thumb:link,
+.news_thumb:visited {	
+	background: transparent;
+	box-shadow: none;
+}
+
+.news_thumb.active,
+.news_thumb:active {	
+	background: #FFF;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, .02);
+}
+
+.news_thumb:hover {
+	background: #FFF;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, .02);
+}
+
+.news_thumb > div:nth-child(1) {
+	width: 65px;
+}
+
+.news_thumb > div:nth-child(2) {
+	width: calc(100% - 65px);
+}
+
+.news_thumb .img_box {
+	height: 52px;
+	width: 52px;
+	border-radius: 4px;
+	overflow: hidden;
+	position: relative;
+}
+
+.news_thumb .img_box img {
+	display: block;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.news_thumb h3 {
+	padding: 0 0 2px 0;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 140%;
+	color: #000;
+}
+
+.news_thumb p {
+	padding: 3px 0;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 150%;
+	color: #000;
+}
+
+.subscribe_form_templ_2 {
+	margin: 35px auto 42px auto;
+}
+
+/*-- /Section 1 - News Magazine --*/
+
