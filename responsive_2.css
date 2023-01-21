@@ -313,6 +313,14 @@
 
 /*-- /Section 3 - Object Page --*/
 
+/*-- Section 2 - List Page 2 --*/
+
+.list_thumbnails .list_thumb {
+    width: calc(33.33% - 20px);
+}
+
+/*-- /Section 2 - List Page 2 --*/
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -927,6 +935,37 @@
 
 /*-- /Section 3 - Object Page --*/
 
+/*-- Section 1 - List Page --*/
+
+.brokers_list_3_promo_center {
+    padding: 60px 0 40px 0;
+}
+
+.brokers_list_3_title h1 {
+    font-size: 30px;
+}
+
+.white_pills_list {
+    padding: 4px 4px;
+}
+
+.white_pill_tab {
+    padding: 12px 9px;
+    min-height: 40px;
+    font-size: 14px;
+}
+
+/*-- /Section 1 - List Page --*/
+
+/*-- Section 2 - List Page 2 --*/
+
+.subscribe_form_templ {
+    margin: 23px auto 35px auto;
+    padding: 8px 15px 12px 15px;
+}
+
+/*-- /Section 2 - List Page 2 --*/
+
 }
 
 @media only screen and (max-width: 850px) {
@@ -1411,6 +1450,81 @@
 
 /*-- /Section 3 - Landing New 2 --*/
 
+/*-- Section 1 - List Page --*/
+
+.white_pills_wrapp {
+    padding: 15px 0 10px 0;
+}
+
+.promo_form_two_cols {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    padding: 8px 15px 12px 15px;
+}
+
+.promo_form_two_cols > .left_col,
+.promo_form_two_cols > .right_col {
+    width: 100%;
+    padding: 0;
+}
+
+.promo_form_two_cols > .right_col {
+    padding: 4px 0 0 0;
+}
+
+.inputs_inline_2 {
+    padding: 0;
+    background-color: transparent;
+}
+
+.inputs_inline_2 > div {
+    padding: 4px 0 !important;
+}
+
+.inputs_inline_2 > div:nth-child(1),
+.inputs_inline_2 > div:nth-child(2) {
+    width: 100%;
+}
+
+.inputs_inline_2 > div:nth-child(2) {
+    width: 100%;
+}
+
+.inputs_inline_2 .filter_search_dr_title_2 input {
+    border-radius: 6px;
+}
+
+.promo_form_two_cols > .right_col .orange_pill {
+    min-height: 50px;
+}
+
+.filter_search_dr_title_2 input {
+    padding: 0 17px 0 17px;
+}
+
+/*-- /Section 1 - List Page --*/
+
+/*-- Section 2 - List Page 2 --*/
+
+.list_thumbnails .list_thumb {
+    width: calc(50% - 20px);
+}
+
+.subscribe_input {
+    margin: 4px 0;
+}
+
+.subscribe_input input {
+    height: 40px;
+    line-height: 39px;
+}
+
+.subscribe_pill {
+    margin: 4px 0;
+}
+
+/*-- /Section 2 - List Page 2 --*/
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -1654,6 +1768,25 @@
 }
 
 /*-- /Section 3 - Object Page --*/
+
+/*-- Section 2 - List Page 2 --*/
+
+.subscribe_form_templ {
+    margin: 8px auto 20px auto;
+    padding: 3px 15px 8px 15px;
+}
+
+.subscribe_form_templ > .left_col,
+.subscribe_form_templ > .right_col {
+    width: 100%;
+    padding: 4px 0;
+}
+
+.subscribe_form_descript {
+    max-width: 100%;
+}
+
+/*-- /Section 2 - List Page 2 --*/
 
 }
 
@@ -2209,6 +2342,22 @@ button.basket_pill {
 
 /*-- /Section 3 - Landing New 2 --*/
 
+/*-- Section 1 - List Page --*/
+
+.white_pill_tab {
+    padding: 12px 5px;
+}
+
+.brokers_list_3_promo_center {
+    padding: 82px 0 12px 0;
+}
+
+.brokers_list_3_title h1 {
+    font-size: 28px;
+}
+
+/*-- /Section 1 - List Page --*/
+
 }
 
 @media only screen and (max-width: 550px) {
@@ -2260,6 +2409,31 @@ button.basket_pill {
 }
 
 /*-- /Section 6 - Object New --*/
+
+/*-- Section 1 - List Page 2 --*/
+
+.breadcrumbs_wrapp_list_page {
+    padding: 6px 0 13px 0;
+}
+
+/*-- /Section 1 - List Page 2 --*/
+
+/*-- Section 2 - List Page 2 --*/
+
+.list_thumbnails {
+    margin: 0;
+}
+
+.list_thumbnails .list_thumb {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.pagination_wrapp_list_page {
+    padding: 13px 0 13px 0;
+}
+
+/*-- /Section 2 - List Page 2 --*/
 
 }
 
