@@ -1525,6 +1525,14 @@
 
 /*-- /Section 2 - List Page 2 --*/
 
+/*-- Section 1 - News Page --*/
+
+.news_article h1 {
+    font-size: 28px;
+}
+
+/*-- /Section 1 - News Page --*/
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -2613,6 +2621,18 @@ button.basket_pill {
 
 /*-- /Section 9 - Landing New --*/
 
+/*-- Section 1 - News Page --*/
+
+.article_soc_list_4 li a {
+    width: 63px;
+}
+
+.news_article_footer_wrapp {
+    margin: 18px 0 35px 0;
+}
+
+/*-- /Section 1 - News Page --*/
+
 }
 
 @media only screen and (max-width: 360px) {
@@ -2701,5 +2721,22 @@ button.basket_pill {
 }
 
 /*-- /Section 3 - Object Page --*/
+
+/*-- Section 1 - News Page --*/
+
+.article_soc_list_4 li a {
+    width: 54px;
+}
+
+.news_article_footer h3 {
+    font-size: 17px;
+}
+
+.article_date {
+    padding: 2px 0;
+    font-size: 14px;
+}
+
+/*-- /Section 1 - News Page --*/
 
 }
