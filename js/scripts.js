@@ -500,7 +500,7 @@ d = document,
 e = d.documentElement,
 g = d.getElementsByTagName('body')[0],
 bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
-
+var input;
 $(window).on("load", function() {
   getBarsChart();
   getObjectCardsSlider();
@@ -1806,11 +1806,13 @@ $(document).ready(function() {
     // -------------
 
     $(".filter_search_dr_title input").on('propertychange input', function (e) {
+      $(".filter_search_dr").removeClass("active");
       parent = $(this).closest(".filter_search_dr");
       parent.addClass("active");
     });
 
     $(".filter_search_dr_title input").on('click', function (e) {
+      $(".filter_search_dr").removeClass("active");
       parent = $(this).closest(".filter_search_dr");
       parent.addClass("active");
     });
@@ -2181,6 +2183,25 @@ $(document).ready(function() {
           } else {
             parent.removeClass("active");
             sl.slideUp(300);
+          }
+        });
+
+        // -----------------
+
+        $(".searchInput").on("keyup", function(e) {
+          parent = $(this).closest(".fSdr");
+          input = $(this);
+          filter = $(this).val().toUpperCase();
+          ul = parent.find(".fList");
+          li = ul.find("li");
+          for (i = 0; i < li.length; i++) {
+              a = li[i].getElementsByTagName("a")[0];
+              txtValue = a.textContent || a.innerText;
+              if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                  li[i].style.display = "";
+              } else {
+                  li[i].style.display = "none";
+              }
           }
         });
 
