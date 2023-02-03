@@ -966,6 +966,15 @@
 
 /*-- /Section 2 - List Page 2 --*/
 
+/*-- Section 1 - Developer Page New --*/
+
+.company_promo_thumbs_2 .company_promo_thumb_2 {
+    padding: 12px 12px 12px 12px; 
+    width: 72px;
+}
+
+/*-- /Section 1 - Developer Page New --*/
+
 }
 
 @media only screen and (max-width: 850px) {
@@ -1532,6 +1541,19 @@
 }
 
 /*-- /Section 1 - News Page --*/
+
+/*-- Section 1 - Developer Page New --*/
+
+.dev_page_offices_val .offices_val_thumb.orange > div:nth-child(1) p {
+    color: #FF5722;
+}
+
+.offices_val.dev_page_offices_val {
+    margin: 0 auto;
+    justify-content: center;
+}
+
+/*-- /Section 1 - Developer Page New --*/
 
 }
 
@@ -2633,6 +2655,18 @@ button.basket_pill {
 
 /*-- /Section 1 - News Page --*/
 
+/*-- Section 3 - Developer Page New --*/
+
+.dr_grey_box {
+    padding: 26px 30px 32px 30px;
+}
+
+.dr_article_2_2 p {
+    font-size: 14px;
+}
+
+/*-- /Section 3 - Developer Page New --*/
+
 }
 
 @media only screen and (max-width: 360px) {
@@ -2738,5 +2772,15 @@ button.basket_pill {
 }
 
 /*-- /Section 1 - News Page --*/
+
+/*-- Section 1 - Developer Page New --*/
+
+.company_promo_thumbs_2 .company_promo_thumb_2 {
+    padding: 5px 5px 5px 5px;
+    width: 56px;
+    height: 56px;
+}
+
+/*-- /Section 1 - Developer Page New --*/
 
 }

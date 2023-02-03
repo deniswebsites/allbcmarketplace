@@ -47,3 +47,4 @@
 # http://deniswebsites.github.io/allbcmarketplace/list_page_3.html
 # http://deniswebsites.github.io/allbcmarketplace/news_magazine.html
 # http://deniswebsites.github.io/allbcmarketplace/news_page.html
+# http://deniswebsites.github.io/allbcmarketplace/developer_page_new.html
